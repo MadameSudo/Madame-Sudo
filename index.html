@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>Madame Sudo! :)</title>
-  <link rel="shortcut icon" type="image/png" href="https://i.ibb.co/m0TZgmC/fotor-2023-3-13-13-35-47.png">
   <style>
     h1 {
       text-align: center;
@@ -25,6 +24,28 @@
       text-align: center;
       font-style: italic;
       margin-top: 20px;
+    }
+
+    .tooltip {
+      position: relative;
+      float: right;
+    }
+
+    .tooltip .tooltiptext {
+      display: none;
+      position: absolute;
+      z-index: 1;
+      background-color: #FFC0CB;
+      color: black;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 12px;
+      width: 150px;
+      text-align: center;
+    }
+
+    .tooltip:hover .tooltiptext {
+      display: block;
     }
 
     @keyframes flash {
@@ -53,6 +74,11 @@
 </head>
 <body>
   <h1><span style="font-size: 2em; color: #FFB6C1;">&#x2605;</span><span style="font-size: 2em;">Madame Sudo</span><span style="font-size: 2em; color: #FFB6C1;">&#x2605;</span></h1>
+  <div class="tooltip">
+    <a href="#">What Does My Name Mean?
+      <span class="tooltiptext">This</span>
+    </a>
+  </div>
   <p>(Tech-ing things to the next level)</p>
   <h2>Table of Contents</h2>
   <div style="display: flex; justify-content: center; align-items: center;">
@@ -67,4 +93,3 @@
   <footer>All Rights Reserved, Madame Sudo 2023</footer>
 </body>
 </html>
-
