@@ -31,8 +31,7 @@
       font-style: italic;
       margin-top: 20px;
     }
-
-    .tooltip {
+ .tooltip {
       position: relative;
       float: right;
     }
@@ -59,7 +58,6 @@
       50% { color: #FFB6C1; }
       100% { color: grey; }
     }
-
     ul {
       text-align: center;
       list-style: none;
@@ -75,6 +73,18 @@
       text-align: center;
       font-size: 0.8em;
       color: grey;
+    }
+    .linux-bullet {
+      font-size: 1.5em;
+      color: #61C265; /* Green color for the bullet */
+      margin-right: 10px; /* Spacing between bullet and text */
+    }
+    .quirky-pointer {
+      font-size: 1.5em;
+      color: #FF8C00; /* Orange color for the pointer */
+      margin-right: 5px; /* Spacing between pointer and text */
+      transform: rotate(-30deg); /* Rotating the pointer */
+      display: inline-block;
     }
   </style>
 </head>
@@ -99,7 +109,13 @@
     <li><a href="https://madamesudo.github.io/TheOpenSourcePhilosophy/">The Open-Source Philosophy</a></li>
     <li><a href="https://madamesudo.github.io/MasteringVimTextEditor/">Mastering the Vim Text Editor: Tips and Tricks</a></li>
     <li><a href="https://madamesudo.github.io/Terminal-Group-Management/">Getting Started with the Terminal, Package & Group Management</a></li>
-    <li><a href="https://madamesudo.github.io/ShellCustomization/">Shell Scripting and Customization</a></li>
+    <li>
+      <span class="linux-bullet">🐧</span>
+      <a href="https://madamesudo.github.io/ShellCustomization/">
+        Shell Scripting and Customization
+        <span style="font-size: 0.8em; color: #FF8C00;">*VERY INTERESTING*</span>
+      </a>
+    </li>
   </ul>
   <footer>All Rights Reserved, Madame Sudo 2023</footer>
 </body>
